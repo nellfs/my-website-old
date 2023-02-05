@@ -22,7 +22,7 @@
   margin: auto;
   height: 1px;
   width: 0%;
-  background-color: black;
+  background-color: var(--text);
   animation: home-line 1s ease-in-out forwards;
 }
 
@@ -32,7 +32,7 @@
   }
 
   100% {
-    color: black;
+    color: var(--text);
   }
 }
 
