@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import "./Home.css";
 
 const Home = () => {
@@ -5,10 +6,7 @@ const Home = () => {
     <div className="home">
       <div className="container">
         <div className="title">
-          <h1>
-            Meu nome é <b>Heron</b>
-          </h1>
-          <div className="line"></div>
+          <h1>Eu sou um desenvolvedor que adora criar coisas novas</h1>
         </div>
       </div>
     </div>

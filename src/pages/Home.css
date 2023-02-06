@@ -6,42 +6,19 @@
 }
 
 .home .container {
+  width: 70vw;
   margin: auto;
-  display: inline-flex;
 }
 
 .home .container h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: var(--background-color);
-  animation: home-text 0.5s linear forwards;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 60px;
+  color: var(--text);
   animation-delay: 0.5s;
 }
 
-.home .container .title .line {
-  margin: auto;
-  height: 1px;
-  width: 0%;
-  background-color: var(--text);
-  animation: home-line 1s ease-in-out forwards;
-}
-
-@keyframes home-text {
-  0% {
-    color: var(--background-color);
-  }
-
-  100% {
-    color: var(--text);
-  }
-}
-
-@keyframes home-line {
-  0% {
-    width: 0%;
-  }
-
-  100% {
-    width: 100%;
-  }
+.home .container .title {
+  display: flex;
+  flex-direction: row;
 }
