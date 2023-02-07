@@ -1,19 +1,20 @@
 .home {
   display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   background-color: var(--background-color);
 }
 
 .home .container {
-  width: 70vw;
-  margin: auto;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .home .container h1 {
   font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: 60px;
+  font-weight: 600;
+  font-size: 5.8vw;
   color: var(--text);
   animation-delay: 0.5s;
 }
@@ -21,4 +22,16 @@
 .home .container .title {
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 840px) {
+  .home .container {
+    padding: 0px 30px;
+    margin: 0 0;
+    width: 50%;
+  }
+
+  .home .container h1 {
+    font-size: 8.2vw;
+  }
 }
